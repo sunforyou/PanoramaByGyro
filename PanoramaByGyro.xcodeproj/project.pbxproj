@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4237CD21CB7B3120071B386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4237CD11CB7B3120071B386 /* AppDelegate.swift */; };
+		A4237CD41CB7B3120071B386 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4237CD31CB7B3120071B386 /* ViewController.swift */; };
+		A4237CD91CB7B3120071B386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4237CD81CB7B3120071B386 /* Assets.xcassets */; };
+		A4237CDC1CB7B3120071B386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4237CDA1CB7B3120071B386 /* LaunchScreen.storyboard */; };
+		A4CA6CA11CBC82C5005B42B1 /* JKPanoramaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CA6C9F1CBC82C5005B42B1 /* JKPanoramaView.swift */; };
+		A4CA6CA21CBC82C5005B42B1 /* JKPanoramaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4CA6CA01CBC82C5005B42B1 /* JKPanoramaView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4237CCE1CB7B3120071B386 /* PanoramaByGyro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanoramaByGyro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4237CD11CB7B3120071B386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4237CD31CB7B3120071B386 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4237CD81CB7B3120071B386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4237CDB1CB7B3120071B386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4237CDD1CB7B3120071B386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4CA6C9F1CBC82C5005B42B1 /* JKPanoramaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKPanoramaView.swift; sourceTree = "<group>"; };
+		A4CA6CA01CBC82C5005B42B1 /* JKPanoramaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKPanoramaView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4237CCB1CB7B3120071B386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4237CC51CB7B3120071B386 = {
+			isa = PBXGroup;
+			children = (
+				A4237CD01CB7B3120071B386 /* PanoramaByGyro */,
+				A4237CCF1CB7B3120071B386 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4237CCF1CB7B3120071B386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4237CCE1CB7B3120071B386 /* PanoramaByGyro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4237CD01CB7B3120071B386 /* PanoramaByGyro */ = {
+			isa = PBXGroup;
+			children = (
+				A4CA6C9F1CBC82C5005B42B1 /* JKPanoramaView.swift */,
+				A4CA6CA01CBC82C5005B42B1 /* JKPanoramaView.xib */,
+				A4237CD11CB7B3120071B386 /* AppDelegate.swift */,
+				A4237CD31CB7B3120071B386 /* ViewController.swift */,
+				A4237CD81CB7B3120071B386 /* Assets.xcassets */,
+				A4237CDA1CB7B3120071B386 /* LaunchScreen.storyboard */,
+				A4237CDD1CB7B3120071B386 /* Info.plist */,
+			);
+			path = PanoramaByGyro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4237CCD1CB7B3120071B386 /* PanoramaByGyro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4237CE01CB7B3120071B386 /* Build configuration list for PBXNativeTarget "PanoramaByGyro" */;
+			buildPhases = (
+				A4237CCA1CB7B3120071B386 /* Sources */,
+				A4237CCB1CB7B3120071B386 /* Frameworks */,
+				A4237CCC1CB7B3120071B386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanoramaByGyro;
+			productName = PanoramaByGyro;
+			productReference = A4237CCE1CB7B3120071B386 /* PanoramaByGyro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4237CC61CB7B3120071B386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sky;
+				TargetAttributes = {
+					A4237CCD1CB7B3120071B386 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SCQ86T8B64;
+					};
+				};
+			};
+			buildConfigurationList = A4237CC91CB7B3120071B386 /* Build configuration list for PBXProject "PanoramaByGyro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4237CC51CB7B3120071B386;
+			productRefGroup = A4237CCF1CB7B3120071B386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4237CCD1CB7B3120071B386 /* PanoramaByGyro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4237CCC1CB7B3120071B386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4237CDC1CB7B3120071B386 /* LaunchScreen.storyboard in Resources */,
+				A4237CD91CB7B3120071B386 /* Assets.xcassets in Resources */,
+				A4CA6CA21CBC82C5005B42B1 /* JKPanoramaView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4237CCA1CB7B3120071B386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CA6CA11CBC82C5005B42B1 /* JKPanoramaView.swift in Sources */,
+				A4237CD41CB7B3120071B386 /* ViewController.swift in Sources */,
+				A4237CD21CB7B3120071B386 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4237CDA1CB7B3120071B386 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4237CDB1CB7B3120071B386 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4237CDE1CB7B3120071B386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4237CDF1CB7B3120071B386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4237CE11CB7B3120071B386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PanoramaByGyro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sky.PanoramaByGyro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4237CE21CB7B3120071B386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PanoramaByGyro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sky.PanoramaByGyro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4237CC91CB7B3120071B386 /* Build configuration list for PBXProject "PanoramaByGyro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4237CDE1CB7B3120071B386 /* Debug */,
+				A4237CDF1CB7B3120071B386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4237CE01CB7B3120071B386 /* Build configuration list for PBXNativeTarget "PanoramaByGyro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4237CE11CB7B3120071B386 /* Debug */,
+				A4237CE21CB7B3120071B386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4237CC61CB7B3120071B386 /* Project object */;
+}
